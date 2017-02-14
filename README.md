@@ -1,8 +1,13 @@
 [![Travis-CI Build Status](https://travis-ci.org/.svg?branch=master)](https://travis-ci.org/)
+[![saythanks](https://img.shields.io/badge/say-thanks-ff69b4.svg)](https://saythanks.io/to/JohnCoene)
 
 # peity
 
 [Peity](http://benpickles.github.io/peity/) htmlwidget for R.
+
+<cite>
+Peity (sounds like deity) is a jQuery plugin that converts an element's content into a <svg> mini pie  donut  line or bar chart  and is compatible with any browser that supports <svg>: Chrome, Firefox, IE9+, Opera, Safari.
+</cite>
 
 ## Install
 
