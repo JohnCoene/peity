@@ -4,9 +4,52 @@
 \alias{peity}
 \title{Peity}
 \usage{
-peity(message, width = NULL, height = NULL, elementId = NULL)
+peity(values, type = "pie", options, width = NULL, height = NULL,
+  elementId = NULL)
+}
+\arguments{
+\item{values}{values to plot.}
+
+\item{type}{type of chart defaults to \code{pie}, see details for valid values.}
+
+\item{options}{\code{list} of options, see details.}
+
+\item{width, height}{Must be a valid CSS unit (like \code{'100\%'},
+\code{'400px'}, \code{'auto'}) or a number, which will be coerced to a
+string and have \code{'px'} appended.}
+
+\item{elementId}{\code{string} id as a valid \code{CSS} element id.}
 }
 \description{
-Peity
+Make Peity in-line chart
+}
+\details{
+Valid values for \code{type}:
+\itemize{
+  \item{pie}
+  \item{donut}
+  \item{bar}
+  \item{line}
+}
+
+Valid options by \code{type}:
+\itemize{
+  \item{pie:}{ \code{delimiter}, \code{fill}, \code{height}, \code{width}, \code{radius}}
+  \item{donut:} {same as ie (above) + \code{innerRadius}}
+  \item{line:}{ \code{delimiter}, \code{fill}, \code{height}, \code{width}, \code{max}, \code{min}, \code{stroke}, \code{strokeWidth}}
+  \item{bar:}{ \code{delimiter}, \code{fill}, \code{height}, \code{wdith}, \code{max}, \code{min}, \code{padding}}
+}
+}
+\examples{
+\dontrun{
+peity("1/5", type = "pie")
+peity(c(1,5), type = "donut", options = list(fill = I(c("green", "red")),
+                                         radius = 100))
+peity(c(1,5), type = "donut", options = list(fill = c("#845422", "#ead61c"),
+                                         radius = 50, innerRadius = 40))
+peity(rnorm(50, 2, 1), type = "line", options = list(width = 100))
+peity(c(1,5,3), type = "bar", options = list(fill = I("green")))
+}
+
 }
 
