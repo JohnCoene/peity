@@ -36,6 +36,17 @@
 #'                                          radius = 50, innerRadius = 40))
 #' peity(rnorm(50, 2, 1), type = "line", options = list(width = 100))
 #' peity(c(1,5,3), type = "bar", options = list(fill = I("green")))
+#' 
+#' peity(c(4,-2,3, -4), type = "bar", options = list(fill = htmlwidgets::JS('function(value) {
+#'    return value > 0 ? "green" : "red"
+#' }')))
+#'    
+#' js_fun <- htmlwidgets::JS('function(_, i, all) {
+#'     var g = parseInt((i / all.length) * 255)
+#'     return "rgb(255, " + g + ", 0)"
+#' }')
+#'     
+#' peity(c(0,-3,-6,-4,-5,-4,-7,-3,-5,-2), type = "bar", options = list(fill = js_fun))
 #' }
 #'
 #' @import htmlwidgets
