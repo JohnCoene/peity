@@ -30,9 +30,7 @@ peity(c(1,5,3), type = "bar", options = list(fill = I("green")))
 Use in rmarkdown in-line like so ``r peity(c(1,4,2), type = "pie")``, or in blocks like so
 
 ```R
-```{r}
 peity(c(1,4,2), type = "pie")
-```
 ```
 
 -----------------------------------------------
