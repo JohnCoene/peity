@@ -1,4 +1,4 @@
-[![Travis-CI Build Status](https://travis-ci.org/peity.svg?branch=master)](https://travis-ci.org/JohnCoene/peity)
+[![Build Status](https://travis-ci.org/JohnCoene/peity.svg?branch=master)](https://travis-ci.org/JohnCoene/peity)
 [![saythanks](https://img.shields.io/badge/say-thanks-ff69b4.svg)](https://saythanks.io/to/JohnCoene)
 
 # peity
