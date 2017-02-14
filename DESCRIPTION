@@ -1,0 +1,13 @@
+Package: peity
+Title: peity inline charts
+Version: 0.0.0.9000
+Authors@R: person("John", "Coene", email = "jcoenep@gmail.com", role = c("aut", "cre"))
+Description: Peity htmlwidget.
+Depends:
+    R (>= 3.3.2)
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports:
+    htmlwidgets
+RoxygenNote: 5.0.1

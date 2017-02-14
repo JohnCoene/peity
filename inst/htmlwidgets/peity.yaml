@@ -1,0 +1,9 @@
+dependencies:
+ - name: jquery
+   version: 3.1.1
+   src: htmlwidgets/lib/jquery-3.1.1
+   script: jquery-3.1.1.min.js
+ - name: peity
+   version: 3.2.1
+   src: htmlwidgets/lib/peity-3.2.1
+   script: jquery.peity.min.js
