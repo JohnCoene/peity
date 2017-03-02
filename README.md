@@ -3,7 +3,7 @@
 
 # peity
 
-![peity](http://johncoene.github.io/projects/img/modals/peity.png)
+![peity](http://john-coene.com/img/thumbnails/peity.png)
 
 [Peity](http://benpickles.github.io/peity/) htmlwidget for R.
 
