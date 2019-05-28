@@ -3,8 +3,6 @@
 
 # peity
 
-![peity](http://john-coene.com/img/thumbnails/peity.png)
-
 [Peity](http://benpickles.github.io/peity/) htmlwidget for R.
 
 > Peity (sounds like deity) is a jQuery plugin that converts an element's content into a <svg> mini pie  donut  line or bar chart  and is compatible with any browser that supports <svg>: Chrome, Firefox, IE9+, Opera, Safari.
@@ -51,12 +49,3 @@ Use in rmarkdown in-line like so ``r peity(c(1,4,2), type = "pie")``, or in bloc
 ```R
 peity(c(1,4,2), type = "pie")
 ```
-
------------------------------------------------
-
-* Peity - `3.2.1`
-* jquery - `3.1.1`
-
------------------------------------------------
-
-See [my other projects](http://johncoene.github.io/projects/)
